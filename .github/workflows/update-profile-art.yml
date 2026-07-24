@@ -37,7 +37,7 @@ jobs:
           python scripts/render_repos_svg.py
           python scripts/make_stats_card_svg.py
           python scripts/make_lang_chart_svg.py
-          python scripts/make_invaders_svg.py
+          python scripts/make_matrix_svg.py
           python scripts/make_info_card.py
           python scripts/make_banner_svg.py
           python scripts/make_skills_svg.py
@@ -46,4 +46,4 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: refresh profile art and stats [skip ci]"
-          file_pattern: "data/contributions.json data/repo_stats.json contrib-heatmap.svg repo-showcase.svg stats-card.svg lang-chart.svg commit-invaders.svg info-card.svg banner.svg skills.svg"
+          file_pattern: "data/contributions.json data/repo_stats.json contrib-heatmap.svg repo-showcase.svg stats-card.svg lang-chart.svg matrix-rain.svg info-card.svg banner.svg skills.svg"

@@ -30,20 +30,20 @@ def generate_info_card(output_path="info-card.svg", static_mode=False):
 
     # (icon_key, key_label, value_text, value_color, key_color, is_spacer)
     rows = [
-        ("terminal", "gtxprime",  "~ % neofetch",          "#39d353", "#39d353", False),
-        ("user",     "Name",      "Garvit Sharma",          "#e6edf3", "#58a6ff", False),
-        ("cpu",      "OS",        "Windows 11 / Ubuntu 22", "#e6edf3", "#58a6ff", False),
-        ("layers",   "Kernel",    "Gemini-Agentic v3.5",    "#e6edf3", "#58a6ff", False),
-        ("zap",      "Uptime",    "24/7 no downtime",       "#e6edf3", "#58a6ff", False),
-        ("terminal", "Shell",     "pwsh + zsh",             "#e6edf3", "#58a6ff", False),
-        ("code",     "Editor",    "Android Studio / VSCode","#e6edf3", "#58a6ff", False),
-        (None,       "",          "",                       "",        "",        True),   # spacer
-        ("layers",   "Now",       "Self-animating READMEs", "#bc8cff", "#bc8cff", False),
-        ("globe",    "Prev",      "Android + Flutter apps", "#bc8cff", "#bc8cff", False),
-        ("code",     "Stack",     "Kotlin Java Dart JS Py", "#bc8cff", "#bc8cff", False),
-        ("zap",      "Focus",     "Agentic workflows + UX", "#bc8cff", "#bc8cff", False),
-        (None,       "",          "",                       "",        "",        True),   # spacer
-        ("arrow",    "gtxprime",  "github ~ % _",           "#39d353", "#39d353", False),
+        ("terminal", "gtxprime",  "~ % neofetch",           "#39d353", "#39d353", False),
+        ("user",     "Name",      "Garvit Sharma",           "#e6edf3", "#58a6ff", False),
+        ("cpu",      "OS",        "Windows 11 / Ubuntu 22",  "#e6edf3", "#58a6ff", False),
+        ("zap",      "Uptime",    "24/7  no downtime",       "#e6edf3", "#58a6ff", False),
+        ("terminal", "Shell",     "pwsh + zsh",              "#e6edf3", "#58a6ff", False),
+        ("code",     "Editor",    "Android Studio + VSCode", "#e6edf3", "#58a6ff", False),
+        ("layers",   "AI",        "Claude (Antigravity)",    "#bc8cff", "#58a6ff", False),
+        (None,       "",          "",                        "",        "",        True),
+        ("zap",      "Working",   "Edge Deck  (pvt repo)",   "#f0883e", "#f0883e", False),
+        ("globe",    "Prev",      "Android + Flutter apps",  "#bc8cff", "#bc8cff", False),
+        ("code",     "Stack",     "Kotlin  Java  Dart  JS",  "#bc8cff", "#bc8cff", False),
+        ("layers",   "Focus",     "Agentic workflows + UX",  "#bc8cff", "#bc8cff", False),
+        (None,       "",          "",                        "",        "",        True),
+        ("arrow",    "gtxprime",  "github ~ % _",            "#39d353", "#39d353", False),
     ]
 
     line_h = 30

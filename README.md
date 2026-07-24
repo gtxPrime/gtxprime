@@ -28,11 +28,9 @@
 
 ---
 
-### `gtxprime@github ~ $ ./commit-invaders.sh`
+### `gtxprime@github ~ $ ./matrix.sh`
 
-> Your contribution history — as enemy formation. The ship auto-fires. Watch your commits get destroyed and rebuilt.
-
-<img src="./commit-invaders.svg" width="860" alt="Commit Invaders — Contribution Game" />
+<img src="./matrix-rain.svg" width="860" alt="Matrix Code Rain — real repo names as signal columns" />
 
 <br/>
 

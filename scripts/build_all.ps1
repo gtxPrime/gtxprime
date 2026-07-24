@@ -7,7 +7,7 @@ $scripts = @(
     "scripts/make_info_card.py",
     "scripts/make_ascii_svg.py",
     "scripts/render_heatmap_svg.py",
-    "scripts/make_invaders_svg.py"
+    "scripts/make_matrix_svg.py"
 )
 foreach ($s in $scripts) {
     Write-Host "Running $s..."
