@@ -1,35 +1,11 @@
 import os
 
 def generate_info_card(output_path="info-card.svg", static_mode=False):
-    # Dimensions matching the 490px width requirement to align with layout
     width = 490
     height = 490
     
-    # Check if we should disable animations (static mode)
-    if os.environ.get("STATIC") == "1" or static_mode:
-        animate_style = "/* Animations disabled (STATIC=1) */"
-        row_class_prefix = ""
-    else:
-        # Generate staggered animation delays for 15 elements
-        delays = [round(0.1 + i * 0.08, 2) for i in range(16)]
-        animate_style = """
-    @keyframes fadeInUp {
-      from {
-        opacity: 0;
-        transform: translateY(8px);
-      }
-      to {
-        opacity: 1;
-        transform: translateY(0);
-      }
-    }
-    .animate {
-      opacity: 0;
-      animation: fadeInUp 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
-    }
-""" + "\n".join([f"    .delay-{i} {{ animation-delay: {delays[i]}s; }}" for i in range(len(delays))])
-        row_class_prefix = "animate delay-"
-        
+    is_static = os.environ.get("STATIC") == "1" or static_mode
+    
     svg = []
     svg.append(f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {width} {height}" width="100%" height="100%">')
     svg.append('  <style>')
@@ -42,7 +18,6 @@ def generate_info_card(output_path="info-card.svg", static_mode=False):
     svg.append('    .highlight-purple { fill: #bc8cff; font-weight: bold; }')
     svg.append('    .highlight-orange { fill: #ff9b5e; font-weight: bold; }')
     svg.append('    .muted { fill: #8b949e; }')
-    svg.append(animate_style)
     svg.append('  </style>')
     
     # Terminal Window Background
@@ -59,21 +34,7 @@ def generate_info_card(output_path="info-card.svg", static_mode=False):
     # Title text
     svg.append(f'  <text class="title-text" x="80" y="20">gtxprime@term: ~</text>')
     
-    # Main Content Area
-    y_start = 65
-    y_gap = 24
-    
-    # Helper to format rows easily
-    def make_row(index, y, x_offset, parts):
-        cls = f' class="{row_class_prefix}{index} terminal-text"' if row_class_prefix else ' class="terminal-text"'
-        t_spans = []
-        for text, style in parts:
-            if style:
-                t_spans.append(f'<tspan class="{style}">{text}</tspan>')
-            else:
-                t_spans.append(text)
-        return f'  <text{cls} x="{x_offset}" y="{y}">{"".join(t_spans)}</text>'
-        
+    # Content rows
     rows = [
         # Line 0: Prompt
         (35, [("gtxprime", "highlight-green"), ("@", "muted"), ("github", "highlight-blue"), (" ~ % neofetch", None)]),
@@ -105,9 +66,36 @@ def generate_info_card(output_path="info-card.svg", static_mode=False):
         (35, [("gtxprime", "highlight-green"), ("@", "muted"), ("github", "highlight-blue"), (" ~ % ", None), ("█", "highlight-green")]),
     ]
     
+    y_start = 65
+    y_gap = 24
     current_y = y_start
+    
+    def xml_escape(text):
+        return text.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;').replace('"', '&quot;').replace("'", '&apos;')
+        
     for i, (x_off, parts) in enumerate(rows):
-        svg.append(make_row(i, current_y, x_off, parts))
+        # Escape content
+        escaped_parts = []
+        for text, style in parts:
+            escaped_parts.append((xml_escape(text), style))
+            
+        t_spans = []
+        for text, style in escaped_parts:
+            if style:
+                t_spans.append(f'<tspan class="{style}">{text}</tspan>')
+            else:
+                t_spans.append(text)
+                
+        if is_static:
+            svg.append(f'  <text class="terminal-text" x="{x_off}" y="{current_y}">{"".join(t_spans)}</text>')
+        else:
+            delay = round(0.1 + i * 0.08, 2)
+            svg.append(f'  <text class="terminal-text" x="{x_off}" y="{current_y}" opacity="0">')
+            svg.append(f'    {"".join(t_spans)}')
+            svg.append(f'    <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="{delay}s" fill="freeze" />')
+            svg.append(f'    <animate attributeName="y" from="{current_y + 8}" to="{current_y}" dur="0.4s" begin="{delay}s" fill="freeze" />')
+            svg.append(f'  </text>')
+            
         current_y += y_gap
         
     svg.append('</svg>')
