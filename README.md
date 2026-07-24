@@ -6,6 +6,19 @@
 
 ---
 
+### `gtxprime@github ~ $ whoami`
+
+<table>
+  <tr>
+    <td valign="top"><img src="./avi-ascii.svg" width="370" alt="ASCII Portrait" /></td>
+    <td valign="top"><img src="./info-card.svg" width="490" alt="Identity Card" /></td>
+  </tr>
+</table>
+
+<br/>
+
+---
+
 ### `gtxprime@github ~ $ cat tech-stack.sh`
 
 <img src="./skills.svg" width="860" alt="Tech Stack" />
@@ -47,18 +60,5 @@
 ### `gtxprime@github ~ $ ./showcase_projects.sh`
 
 <img src="./repo-showcase.svg" width="860" alt="Top Projects" />
-
-<br/>
-
----
-
-### `gtxprime@github ~ $ whoami`
-
-<table>
-  <tr>
-    <td valign="top"><img src="./avi-ascii.svg" width="370" alt="ASCII Portrait" /></td>
-    <td valign="top"><img src="./info-card.svg" width="490" alt="Identity Card" /></td>
-  </tr>
-</table>
 
 </div>
