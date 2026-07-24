@@ -1,105 +1,118 @@
+"""
+make_info_card.py  (v4 - fixed + ID card style)
+Premium neofetch-style identity card with proper line spacing,
+Lucide icons, no emojis, SMIL animations only.
+"""
 import os
 
+def xml_escape(t):
+    return t.replace('&','&amp;').replace('<','&lt;').replace('>','&gt;').replace('"','&quot;')
+
 def generate_info_card(output_path="info-card.svg", static_mode=False):
-    width = 490
-    height = 490
-    
     is_static = os.environ.get("STATIC") == "1" or static_mode
-    
-    svg = []
-    svg.append(f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {width} {height}" width="100%" height="100%">')
-    svg.append('  <style>')
-    svg.append(f'    .bg {{ fill: #0d1117; stroke: #30363d; stroke-width: 1.5; }}')
-    svg.append('    .title-bar { fill: #161b22; stroke: #30363d; stroke-width: 1.5; }')
-    svg.append('    .title-text { font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace; font-size: 12px; fill: #8b949e; font-weight: bold; }')
-    svg.append('    .terminal-text { font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace; font-size: 13px; fill: #c9d1d9; line-height: 1.5; }')
-    svg.append('    .highlight-blue { fill: #58a6ff; font-weight: bold; }')
-    svg.append('    .highlight-green { fill: #39d353; font-weight: bold; }')
-    svg.append('    .highlight-purple { fill: #bc8cff; font-weight: bold; }')
-    svg.append('    .highlight-orange { fill: #ff9b5e; font-weight: bold; }')
-    svg.append('    .muted { fill: #8b949e; }')
-    svg.append('  </style>')
-    
-    # Terminal Window Background
-    svg.append(f'  <rect class="bg" width="{width}" height="{height}" rx="8" />')
-    
-    # Title Bar
-    svg.append(f'  <path class="title-bar" d="M 1.5,8 A 6.5,6.5 0 0 1 8,1.5 L {width-8},1.5 A 6.5,6.5 0 0 1 {width-1.5},8 L {width-1.5},30 L 1.5,30 Z" />')
-    
-    # Title Bar Window Controls
-    svg.append('  <circle cx="20" cy="16" r="6" fill="#ff5f56" />')
-    svg.append('  <circle cx="40" cy="16" r="6" fill="#ffbd2e" />')
-    svg.append('  <circle cx="60" cy="16" r="6" fill="#27c93f" />')
-    
-    # Title text
-    svg.append(f'  <text class="title-text" x="80" y="20">gtxprime@term: ~</text>')
-    
-    # Content rows
+    W, H = 490, 490
+
+    ICONS = {
+        "user":     "M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2M12 3a4 4 0 1 0 0 8 4 4 0 0 0 0-8z",
+        "cpu":      "M9 3H5a2 2 0 0 0-2 2v4m6-6h10a2 2 0 0 1 2 2v4M9 3v18m0 0h10a2 2 0 0 0 2-2V9M9 21H5a2 2 0 0 1-2-2V9m0 0h18",
+        "zap":      "M13 2L3 14h9l-1 8 10-12h-9l1-8z",
+        "terminal": "M4 17l6-6-6-6M12 19h8",
+        "code":     "M16 18l6-6-6-6M8 6l-6 6 6 6",
+        "layers":   "M12 2l10 6.5-10 6.5L2 8.5zM2 15.5l10 6.5 10-6.5M2 11l10 6.5L22 11",
+        "globe":    "M2 12a10 10 0 1 0 20 0A10 10 0 0 0 2 12zM12 2a14.5 14.5 0 0 1 0 20A14.5 14.5 0 0 1 12 2zM2 12h20",
+        "arrow":    "M5 12h14M12 5l7 7-7 7",
+    }
+
+    def icon_svg(key, ox, oy, size=13, color="#8b949e"):
+        d = ICONS.get(key, "")
+        scale = size / 24.0
+        return f'<path d="{d}" stroke="{color}" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" fill="none" transform="translate({ox},{oy}) scale({scale:.4f})" />'
+
+    # (icon_key, key_label, value_text, value_color, key_color, is_spacer)
     rows = [
-        # Line 0: Prompt
-        (35, [("gtxprime", "highlight-green"), ("@", "muted"), ("github", "highlight-blue"), (" ~ % neofetch", None)]),
-        # Line 1: Username / separator
-        (35, [("gtxprime", "highlight-green"), ("-----------------", "muted")]),
-        # Line 2: OS
-        (35, [("OS", "highlight-blue"), (": Windows 11 Pro / Ubuntu 22.04", None)]),
-        # Line 3: Kernel
-        (35, [("Kernel", "highlight-blue"), (": Gemini-Agentic-Core v3.5", None)]),
-        # Line 4: Uptime
-        (35, [("Uptime", "highlight-blue"), (": 24/7 Autopilot", None)]),
-        # Line 5: Shell
-        (35, [("Shell", "highlight-blue"), (": powershell / zsh (interactive)", None)]),
-        # Line 6: Empty spacing / divider
-        (35, [(" ", None)]),
-        # Line 7: Section Header [About Me]
-        (35, [("[About Me]", "highlight-purple")]),
-        # Line 8: Now
-        (45, [("Now", "highlight-orange"), (": Building self-animating GitHub profile READMEs", None)]),
-        # Line 9: Prev
-        (45, [("Prev", "highlight-orange"), (": Automating dev environments and code crafting", None)]),
-        # Line 10: Stack
-        (45, [("Stack", "highlight-orange"), (": Python, JS/TS, React, OpenCV, Docker, Git", None)]),
-        # Line 11: Focus
-        (45, [("Focus", "highlight-orange"), (": Agentic coding workflows & high-fidelity UX", None)]),
-        # Line 12: Empty spacing
-        (35, [(" ", None)]),
-        # Line 13: Prompt
-        (35, [("gtxprime", "highlight-green"), ("@", "muted"), ("github", "highlight-blue"), (" ~ % ", None), ("█", "highlight-green")]),
+        ("terminal", "gtxprime",  "~ % neofetch",          "#39d353", "#39d353", False),
+        ("user",     "Name",      "Garvit Sharma",          "#e6edf3", "#58a6ff", False),
+        ("cpu",      "OS",        "Windows 11 / Ubuntu 22", "#e6edf3", "#58a6ff", False),
+        ("layers",   "Kernel",    "Gemini-Agentic v3.5",    "#e6edf3", "#58a6ff", False),
+        ("zap",      "Uptime",    "24/7 no downtime",       "#e6edf3", "#58a6ff", False),
+        ("terminal", "Shell",     "pwsh + zsh",             "#e6edf3", "#58a6ff", False),
+        ("code",     "Editor",    "Android Studio / VSCode","#e6edf3", "#58a6ff", False),
+        (None,       "",          "",                       "",        "",        True),   # spacer
+        ("layers",   "Now",       "Self-animating READMEs", "#bc8cff", "#bc8cff", False),
+        ("globe",    "Prev",      "Android + Flutter apps", "#bc8cff", "#bc8cff", False),
+        ("code",     "Stack",     "Kotlin Java Dart JS Py", "#bc8cff", "#bc8cff", False),
+        ("zap",      "Focus",     "Agentic workflows + UX", "#bc8cff", "#bc8cff", False),
+        (None,       "",          "",                       "",        "",        True),   # spacer
+        ("arrow",    "gtxprime",  "github ~ % _",           "#39d353", "#39d353", False),
     ]
-    
-    y_start = 65
-    y_gap = 24
-    current_y = y_start
-    
-    def xml_escape(text):
-        return text.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;').replace('"', '&quot;').replace("'", '&apos;')
-        
-    for i, (x_off, parts) in enumerate(rows):
-        # Escape content
-        escaped_parts = []
-        for text, style in parts:
-            escaped_parts.append((xml_escape(text), style))
-            
-        t_spans = []
-        for text, style in escaped_parts:
-            if style:
-                t_spans.append(f'<tspan class="{style}">{text}</tspan>')
-            else:
-                t_spans.append(text)
-                
-        if is_static:
-            svg.append(f'  <text class="terminal-text" x="{x_off}" y="{current_y}">{"".join(t_spans)}</text>')
+
+    line_h = 30
+    spacer_h = 10
+    start_y = 70
+
+    # Pre-calculate y positions
+    y_positions = []
+    y = start_y
+    for row in rows:
+        y_positions.append(y)
+        if row[5]:  # spacer
+            y += spacer_h
         else:
-            delay = round(0.1 + i * 0.08, 2)
-            svg.append(f'  <text class="terminal-text" x="{x_off}" y="{current_y}" opacity="0">')
-            svg.append(f'    {"".join(t_spans)}')
-            svg.append(f'    <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="{delay}s" fill="freeze" />')
-            svg.append(f'    <animate attributeName="y" from="{current_y + 8}" to="{current_y}" dur="0.4s" begin="{delay}s" fill="freeze" />')
+            y += line_h
+
+    svg = []
+    svg.append(f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}">')
+    svg.append(f'  <rect width="{W}" height="{H}" rx="10" fill="#0d1117" stroke="#21262d" stroke-width="1.5" />')
+    svg.append(f'  <rect x="0" y="0" width="{W}" height="40" rx="10" fill="#161b22" />')
+    svg.append(f'  <rect x="0" y="30" width="{W}" height="10" fill="#161b22" />')
+    svg.append(f'  <rect x="0" y="39" width="{W}" height="1" fill="#30363d" />')
+    svg.append(f'  <circle cx="20" cy="17" r="5.5" fill="#ff5f56" />')
+    svg.append(f'  <circle cx="40" cy="17" r="5.5" fill="#ffbd2e" />')
+    svg.append(f'  <circle cx="60" cy="17" r="5.5" fill="#27c93f" />')
+    svg.append(f'  <text x="82" y="22" font-family="-apple-system, BlinkMacSystemFont, \'Segoe UI\', Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#8b949e">gtxprime@term: ~</text>')
+
+    anim_idx = 0
+    for i, (ic, key, val, vcol, kcol, is_spacer) in enumerate(rows):
+        y = y_positions[i]
+        if is_spacer:
+            continue
+
+        delay = round(0.08 + anim_idx * 0.06, 2)
+        anim_idx += 1
+        op = '0' if not is_static else '1'
+
+        def anim_tag(d, b):
+            return f'<animate attributeName="opacity" from="0" to="1" dur="{d}s" begin="{b}s" fill="freeze" />'
+
+        # Icon
+        if ic:
+            svg.append(f'  <g opacity="{op}">')
+            svg.append(f'    {icon_svg(ic, 22, y - 10, size=13, color=kcol)}')
+            if not is_static:
+                svg.append(f'    {anim_tag(0.35, delay)}')
+            svg.append(f'  </g>')
+
+        # Key label
+        svg.append(f'  <text x="42" y="{y}" font-family="-apple-system, BlinkMacSystemFont, \'Segoe UI\', Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="{kcol}" opacity="{op}">{xml_escape(key)}')
+        if not is_static:
+            svg.append(f'    {anim_tag(0.35, delay)}')
+        svg.append(f'  </text>')
+
+        # Separator (only for non-title rows)
+        if key not in ("gtxprime",):
+            svg.append(f'  <text x="138" y="{y}" font-family="SFMono-Regular, Consolas, \'Liberation Mono\', Menlo, monospace" font-size="13" fill="#30363d" opacity="{op}">:')
+            if not is_static:
+                svg.append(f'    {anim_tag(0.35, delay)}')
             svg.append(f'  </text>')
-            
-        current_y += y_gap
-        
+
+        # Value
+        svg.append(f'  <text x="152" y="{y}" font-family="-apple-system, BlinkMacSystemFont, \'Segoe UI\', Helvetica, Arial, sans-serif" font-size="13" fill="{vcol}" opacity="{op}">{xml_escape(val)}')
+        if not is_static:
+            svg.append(f'    {anim_tag(0.35, delay)}')
+        svg.append(f'  </text>')
+
     svg.append('</svg>')
-    
+
     with open(output_path, "w", encoding="utf-8") as f:
         f.write("\n".join(svg))
     print(f"Generated info card: {output_path}")

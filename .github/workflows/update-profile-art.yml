@@ -27,18 +27,23 @@ jobs:
           
       - name: Fetch contributions
         run: python scripts/fetch_contributions.py
-        
-      - name: Render heatmap
-        run: python scripts/render_heatmap_svg.py
 
       - name: Fetch repository stats
         run: python scripts/fetch_repo_stats.py
 
-      - name: Render repository showcase
-        run: python scripts/render_repos_svg.py
-        
+      - name: Render all SVGs
+        run: |
+          python scripts/render_heatmap_svg.py
+          python scripts/render_repos_svg.py
+          python scripts/make_stats_card_svg.py
+          python scripts/make_lang_chart_svg.py
+          python scripts/make_invaders_svg.py
+          python scripts/make_info_card.py
+          python scripts/make_banner_svg.py
+          python scripts/make_skills_svg.py
+
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: refresh profile art and stats [skip ci]"
-          file_pattern: "data/contributions.json contrib-heatmap.svg data/repo_stats.json repo-showcase.svg"
+          file_pattern: "data/contributions.json data/repo_stats.json contrib-heatmap.svg repo-showcase.svg stats-card.svg lang-chart.svg commit-invaders.svg info-card.svg banner.svg skills.svg"
