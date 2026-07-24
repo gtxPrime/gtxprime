@@ -35,8 +35,9 @@ def generate_info_card(output_path="info-card.svg", static_mode=False):
         ("cpu",      "OS",        "Windows 11 / Ubuntu 22",  "#e6edf3", "#58a6ff", False),
         ("zap",      "Uptime",    "24/7  no downtime",       "#e6edf3", "#58a6ff", False),
         ("terminal", "Shell",     "pwsh + zsh",              "#e6edf3", "#58a6ff", False),
-        ("code",     "Editor",    "Android Studio + VSCode", "#e6edf3", "#58a6ff", False),
-        ("layers",   "AI",        "Claude (Antigravity)",    "#bc8cff", "#58a6ff", False),
+        ("code",     "Editor",    "Android Studio + VSCode",  "#e6edf3", "#58a6ff", False),
+        ("code",     "",          "PyCharm + Antigravity",    "#8b949e", "#58a6ff", False),
+        ("layers",   "AI",        "Claude + GPT + Gemini",    "#bc8cff", "#58a6ff", False),
         (None,       "",          "",                        "",        "",        True),
         ("zap",      "Working",   "Edge Deck  (pvt repo)",   "#f0883e", "#f0883e", False),
         ("globe",    "Prev",      "Android + Flutter apps",  "#bc8cff", "#bc8cff", False),
@@ -92,14 +93,15 @@ def generate_info_card(output_path="info-card.svg", static_mode=False):
                 svg.append(f'    {anim_tag(0.35, delay)}')
             svg.append(f'  </g>')
 
-        # Key label
-        svg.append(f'  <text x="42" y="{y}" font-family="-apple-system, BlinkMacSystemFont, \'Segoe UI\', Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="{kcol}" opacity="{op}">{xml_escape(key)}')
-        if not is_static:
-            svg.append(f'    {anim_tag(0.35, delay)}')
-        svg.append(f'  </text>')
+        # Key label (skip if this is a continuation/indent row)
+        if key:
+            svg.append(f'  <text x="42" y="{y}" font-family="-apple-system, BlinkMacSystemFont, \'Segoe UI\', Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="{kcol}" opacity="{op}">{xml_escape(key)}')
+            if not is_static:
+                svg.append(f'    {anim_tag(0.35, delay)}')
+            svg.append(f'  </text>')
 
-        # Separator (only for non-title rows)
-        if key not in ("gtxprime",):
+        # Separator colon (skip for title rows and continuation rows)
+        if key and key not in ("gtxprime",):
             svg.append(f'  <text x="138" y="{y}" font-family="SFMono-Regular, Consolas, \'Liberation Mono\', Menlo, monospace" font-size="13" fill="#30363d" opacity="{op}">:')
             if not is_static:
                 svg.append(f'    {anim_tag(0.35, delay)}')

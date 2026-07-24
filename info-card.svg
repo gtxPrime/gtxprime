@@ -83,78 +83,85 @@
     <animate attributeName="opacity" from="0" to="1" dur="0.35s" begin="0.38s" fill="freeze" />
   </text>
   <g opacity="0">
-    <path d="M12 2l10 6.5-10 6.5L2 8.5zM2 15.5l10 6.5 10-6.5M2 11l10 6.5L22 11" stroke="#58a6ff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" fill="none" transform="translate(22,240) scale(0.5417)" />
+    <path d="M16 18l6-6-6-6M8 6l-6 6 6 6" stroke="#58a6ff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" fill="none" transform="translate(22,240) scale(0.5417)" />
     <animate attributeName="opacity" from="0" to="1" dur="0.35s" begin="0.44s" fill="freeze" />
   </g>
-  <text x="42" y="250" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#58a6ff" opacity="0">AI
-    <animate attributeName="opacity" from="0" to="1" dur="0.35s" begin="0.44s" fill="freeze" />
-  </text>
-  <text x="138" y="250" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#30363d" opacity="0">:
-    <animate attributeName="opacity" from="0" to="1" dur="0.35s" begin="0.44s" fill="freeze" />
-  </text>
-  <text x="152" y="250" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#bc8cff" opacity="0">Claude (Antigravity)
+  <text x="152" y="250" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#8b949e" opacity="0">PyCharm + Antigravity
     <animate attributeName="opacity" from="0" to="1" dur="0.35s" begin="0.44s" fill="freeze" />
   </text>
   <g opacity="0">
-    <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" stroke="#f0883e" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" fill="none" transform="translate(22,280) scale(0.5417)" />
+    <path d="M12 2l10 6.5-10 6.5L2 8.5zM2 15.5l10 6.5 10-6.5M2 11l10 6.5L22 11" stroke="#58a6ff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" fill="none" transform="translate(22,270) scale(0.5417)" />
     <animate attributeName="opacity" from="0" to="1" dur="0.35s" begin="0.5s" fill="freeze" />
   </g>
-  <text x="42" y="290" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#f0883e" opacity="0">Working
+  <text x="42" y="280" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#58a6ff" opacity="0">AI
     <animate attributeName="opacity" from="0" to="1" dur="0.35s" begin="0.5s" fill="freeze" />
   </text>
-  <text x="138" y="290" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#30363d" opacity="0">:
+  <text x="138" y="280" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#30363d" opacity="0">:
     <animate attributeName="opacity" from="0" to="1" dur="0.35s" begin="0.5s" fill="freeze" />
   </text>
-  <text x="152" y="290" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#f0883e" opacity="0">Edge Deck  (pvt repo)
+  <text x="152" y="280" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#bc8cff" opacity="0">Claude + GPT + Gemini
     <animate attributeName="opacity" from="0" to="1" dur="0.35s" begin="0.5s" fill="freeze" />
   </text>
   <g opacity="0">
-    <path d="M2 12a10 10 0 1 0 20 0A10 10 0 0 0 2 12zM12 2a14.5 14.5 0 0 1 0 20A14.5 14.5 0 0 1 12 2zM2 12h20" stroke="#bc8cff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" fill="none" transform="translate(22,310) scale(0.5417)" />
+    <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" stroke="#f0883e" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" fill="none" transform="translate(22,310) scale(0.5417)" />
     <animate attributeName="opacity" from="0" to="1" dur="0.35s" begin="0.56s" fill="freeze" />
   </g>
-  <text x="42" y="320" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#bc8cff" opacity="0">Prev
+  <text x="42" y="320" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#f0883e" opacity="0">Working
     <animate attributeName="opacity" from="0" to="1" dur="0.35s" begin="0.56s" fill="freeze" />
   </text>
   <text x="138" y="320" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#30363d" opacity="0">:
     <animate attributeName="opacity" from="0" to="1" dur="0.35s" begin="0.56s" fill="freeze" />
   </text>
-  <text x="152" y="320" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#bc8cff" opacity="0">Android + Flutter apps
+  <text x="152" y="320" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#f0883e" opacity="0">Edge Deck  (pvt repo)
     <animate attributeName="opacity" from="0" to="1" dur="0.35s" begin="0.56s" fill="freeze" />
   </text>
   <g opacity="0">
-    <path d="M16 18l6-6-6-6M8 6l-6 6 6 6" stroke="#bc8cff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" fill="none" transform="translate(22,340) scale(0.5417)" />
+    <path d="M2 12a10 10 0 1 0 20 0A10 10 0 0 0 2 12zM12 2a14.5 14.5 0 0 1 0 20A14.5 14.5 0 0 1 12 2zM2 12h20" stroke="#bc8cff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" fill="none" transform="translate(22,340) scale(0.5417)" />
     <animate attributeName="opacity" from="0" to="1" dur="0.35s" begin="0.62s" fill="freeze" />
   </g>
-  <text x="42" y="350" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#bc8cff" opacity="0">Stack
+  <text x="42" y="350" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#bc8cff" opacity="0">Prev
     <animate attributeName="opacity" from="0" to="1" dur="0.35s" begin="0.62s" fill="freeze" />
   </text>
   <text x="138" y="350" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#30363d" opacity="0">:
     <animate attributeName="opacity" from="0" to="1" dur="0.35s" begin="0.62s" fill="freeze" />
   </text>
-  <text x="152" y="350" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#bc8cff" opacity="0">Kotlin  Java  Dart  JS
+  <text x="152" y="350" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#bc8cff" opacity="0">Android + Flutter apps
     <animate attributeName="opacity" from="0" to="1" dur="0.35s" begin="0.62s" fill="freeze" />
   </text>
   <g opacity="0">
-    <path d="M12 2l10 6.5-10 6.5L2 8.5zM2 15.5l10 6.5 10-6.5M2 11l10 6.5L22 11" stroke="#bc8cff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" fill="none" transform="translate(22,370) scale(0.5417)" />
+    <path d="M16 18l6-6-6-6M8 6l-6 6 6 6" stroke="#bc8cff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" fill="none" transform="translate(22,370) scale(0.5417)" />
     <animate attributeName="opacity" from="0" to="1" dur="0.35s" begin="0.68s" fill="freeze" />
   </g>
-  <text x="42" y="380" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#bc8cff" opacity="0">Focus
+  <text x="42" y="380" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#bc8cff" opacity="0">Stack
     <animate attributeName="opacity" from="0" to="1" dur="0.35s" begin="0.68s" fill="freeze" />
   </text>
   <text x="138" y="380" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#30363d" opacity="0">:
     <animate attributeName="opacity" from="0" to="1" dur="0.35s" begin="0.68s" fill="freeze" />
   </text>
-  <text x="152" y="380" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#bc8cff" opacity="0">Agentic workflows + UX
+  <text x="152" y="380" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#bc8cff" opacity="0">Kotlin  Java  Dart  JS
     <animate attributeName="opacity" from="0" to="1" dur="0.35s" begin="0.68s" fill="freeze" />
   </text>
   <g opacity="0">
-    <path d="M5 12h14M12 5l7 7-7 7" stroke="#39d353" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" fill="none" transform="translate(22,410) scale(0.5417)" />
+    <path d="M12 2l10 6.5-10 6.5L2 8.5zM2 15.5l10 6.5 10-6.5M2 11l10 6.5L22 11" stroke="#bc8cff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" fill="none" transform="translate(22,400) scale(0.5417)" />
     <animate attributeName="opacity" from="0" to="1" dur="0.35s" begin="0.74s" fill="freeze" />
   </g>
-  <text x="42" y="420" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#39d353" opacity="0">gtxprime
+  <text x="42" y="410" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#bc8cff" opacity="0">Focus
     <animate attributeName="opacity" from="0" to="1" dur="0.35s" begin="0.74s" fill="freeze" />
   </text>
-  <text x="152" y="420" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#39d353" opacity="0">github ~ % _
+  <text x="138" y="410" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#30363d" opacity="0">:
     <animate attributeName="opacity" from="0" to="1" dur="0.35s" begin="0.74s" fill="freeze" />
+  </text>
+  <text x="152" y="410" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#bc8cff" opacity="0">Agentic workflows + UX
+    <animate attributeName="opacity" from="0" to="1" dur="0.35s" begin="0.74s" fill="freeze" />
+  </text>
+  <g opacity="0">
+    <path d="M5 12h14M12 5l7 7-7 7" stroke="#39d353" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" fill="none" transform="translate(22,440) scale(0.5417)" />
+    <animate attributeName="opacity" from="0" to="1" dur="0.35s" begin="0.8s" fill="freeze" />
+  </g>
+  <text x="42" y="450" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#39d353" opacity="0">gtxprime
+    <animate attributeName="opacity" from="0" to="1" dur="0.35s" begin="0.8s" fill="freeze" />
+  </text>
+  <text x="152" y="450" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#39d353" opacity="0">github ~ % _
+    <animate attributeName="opacity" from="0" to="1" dur="0.35s" begin="0.8s" fill="freeze" />
   </text>
 </svg>
