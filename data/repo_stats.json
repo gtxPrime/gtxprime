@@ -1,0 +1,182 @@
+[
+  {
+    "name": "Mind-Mint",
+    "description": "\ud83e\udde0 An Android productivity app that helps you break free from doomscrolling. Features immersive focus sessions with gamified crystal rewards, intelligent app blocking, habit heatmaps, deep usage analytics, and an integrated task manager. Built with MVVM, Room, Jetpack Compose & Firebase.",
+    "stars": 64,
+    "forks": 10,
+    "language": "Java",
+    "html_url": "https://github.com/gtxPrime/Mind-Mint",
+    "updated_at": "2026-07-19T10:35:35Z"
+  },
+  {
+    "name": "screen-x",
+    "description": "Just an open source screen recorder",
+    "stars": 39,
+    "forks": 3,
+    "language": "Kotlin",
+    "html_url": "https://github.com/gtxPrime/screen-x",
+    "updated_at": "2026-07-22T14:51:52Z"
+  },
+  {
+    "name": "arrow-escape",
+    "description": "Just a flutter game of making arrows out of the grid (viral game)",
+    "stars": 26,
+    "forks": 0,
+    "language": "Dart",
+    "html_url": "https://github.com/gtxPrime/arrow-escape",
+    "updated_at": "2026-07-24T15:39:24Z"
+  },
+  {
+    "name": "whats-wrap",
+    "description": "A simple tool to check your WhatsApp Wrap with your loved ones",
+    "stars": 17,
+    "forks": 2,
+    "language": "JavaScript",
+    "html_url": "https://github.com/gtxPrime/whats-wrap",
+    "updated_at": "2026-06-24T21:25:45Z"
+  },
+  {
+    "name": "vtroid",
+    "description": "",
+    "stars": 3,
+    "forks": 3,
+    "language": "Java",
+    "html_url": "https://github.com/gtxPrime/vtroid",
+    "updated_at": "2026-05-23T19:43:47Z"
+  },
+  {
+    "name": "gradify-web",
+    "description": "",
+    "stars": 3,
+    "forks": 0,
+    "language": "JavaScript",
+    "html_url": "https://github.com/gtxPrime/gradify-web",
+    "updated_at": "2026-04-07T11:49:16Z"
+  },
+  {
+    "name": "gradify",
+    "description": "Gradify is a comprehensive mobile learning platform designed exclusively for IIT Madras BS in Data Science students. From Foundation to Diploma levels, Gradify brings together video lectures, interactive quizzes, formula sheets, AI assistance, and study materials - all in one beautifully designed Android application.",
+    "stars": 2,
+    "forks": 0,
+    "language": "Java",
+    "html_url": "https://github.com/gtxPrime/gradify",
+    "updated_at": "2026-02-24T18:09:51Z"
+  },
+  {
+    "name": "motionshelf",
+    "description": "",
+    "stars": 1,
+    "forks": 1,
+    "language": "TypeScript",
+    "html_url": "https://github.com/gtxPrime/motionshelf",
+    "updated_at": "2026-07-12T20:22:26Z"
+  },
+  {
+    "name": "creative-video-portfolio",
+    "description": "A premium, responsive video portfolio template for editors, animators, and creators, featuring GSAP animations, custom cursors, AJAX page loading.",
+    "stars": 1,
+    "forks": 0,
+    "language": "HTML",
+    "html_url": "https://github.com/gtxPrime/creative-video-portfolio",
+    "updated_at": "2026-06-17T05:11:00Z"
+  },
+  {
+    "name": "hospital-management",
+    "description": "",
+    "stars": 1,
+    "forks": 0,
+    "language": "JavaScript",
+    "html_url": "https://github.com/gtxPrime/hospital-management",
+    "updated_at": "2026-04-10T12:01:47Z"
+  },
+  {
+    "name": "Super-Adv-Bot",
+    "description": "",
+    "stars": 1,
+    "forks": 0,
+    "language": "Python",
+    "html_url": "https://github.com/gtxPrime/Super-Adv-Bot",
+    "updated_at": "2025-08-20T15:47:07Z"
+  },
+  {
+    "name": "gtxprime",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "html_url": "https://github.com/gtxPrime/gtxprime",
+    "updated_at": "2026-07-24T16:14:06Z"
+  },
+  {
+    "name": "tds-june-2026",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "html_url": "https://github.com/gtxPrime/tds-june-2026",
+    "updated_at": "2026-07-24T13:12:19Z"
+  },
+  {
+    "name": "ace-unlocker",
+    "description": "Just a temp monkey script to unlock pasting and other features in Ace code editor",
+    "stars": 0,
+    "forks": 0,
+    "language": "JavaScript",
+    "html_url": "https://github.com/gtxPrime/ace-unlocker",
+    "updated_at": "2026-07-06T14:37:59Z"
+  },
+  {
+    "name": "tds-ga2",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "html_url": "https://github.com/gtxPrime/tds-ga2",
+    "updated_at": "2026-06-29T16:17:30Z"
+  },
+  {
+    "name": "Aethra",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "language": "Kotlin",
+    "html_url": "https://github.com/gtxPrime/Aethra",
+    "updated_at": "2026-06-13T09:51:58Z"
+  },
+  {
+    "name": "event-arranger",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "language": "HTML",
+    "html_url": "https://github.com/gtxPrime/event-arranger",
+    "updated_at": "2026-02-23T11:37:17Z"
+  },
+  {
+    "name": "free-rdp",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "html_url": "https://github.com/gtxPrime/free-rdp",
+    "updated_at": "2025-10-25T21:35:59Z"
+  },
+  {
+    "name": "IIT-M-Subjects",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "html_url": "https://github.com/gtxPrime/IIT-M-Subjects",
+    "updated_at": "2025-05-13T10:25:34Z"
+  },
+  {
+    "name": "original-most-advance-bot",
+    "description": "Original most advance bot ",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "html_url": "https://github.com/gtxPrime/original-most-advance-bot",
+    "updated_at": "2023-03-24T14:13:46Z"
+  }
+]

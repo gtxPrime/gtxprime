@@ -5,6 +5,11 @@
 
 <br><br>
 
+### <code>gtxprime@github ~ $ ./showcase_projects.sh</code>
+<img src="./repo-showcase.svg" width="860" />
+
+<br><br>
+
 ### <code>gtxprime@github ~ $ whoami</code>
 <table>
   <tr>
