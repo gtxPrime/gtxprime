@@ -44,7 +44,7 @@
     <path d="M6 3a3 3 0 1 0 0 6 3 3 0 0 0 0-6zm6 18a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm6-18a3 3 0 1 0 0 6 3 3 0 0 0 0-6zM6 9v3a3 3 0 0 0 3 3h6a3 3 0 0 0 3-3V9" stroke="#8b949e" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round" transform="translate(359,156) scale(0.5000)" />
     <animate attributeName="opacity" from="0" to="1" dur="0.45s" begin="0.1s" fill="freeze" />
   </g>
-  <text x="375" y="168" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#8b949e" opacity="0">10
+  <text x="375" y="168" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#8b949e" opacity="0">9
     <animate attributeName="opacity" from="0" to="1" dur="0.45s" begin="0.1s" fill="freeze" />
   </text>
   <rect x="449" y="52" width="405" height="130" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1" opacity="0">
@@ -81,7 +81,7 @@
     <path d="M6 3a3 3 0 1 0 0 6 3 3 0 0 0 0-6zm6 18a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm6-18a3 3 0 1 0 0 6 3 3 0 0 0 0-6zM6 9v3a3 3 0 0 0 3 3h6a3 3 0 0 0 3-3V9" stroke="#8b949e" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round" transform="translate(786,156) scale(0.5000)" />
     <animate attributeName="opacity" from="0" to="1" dur="0.45s" begin="0.22s" fill="freeze" />
   </g>
-  <text x="802" y="168" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#8b949e" opacity="0">3
+  <text x="802" y="168" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#8b949e" opacity="0">2
     <animate attributeName="opacity" from="0" to="1" dur="0.45s" begin="0.22s" fill="freeze" />
   </text>
   <rect x="22" y="204" width="405" height="130" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1" opacity="0">
@@ -161,7 +161,7 @@
     <path d="M6 3a3 3 0 1 0 0 6 3 3 0 0 0 0-6zm6 18a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm6-18a3 3 0 1 0 0 6 3 3 0 0 0 0-6zM6 9v3a3 3 0 0 0 3 3h6a3 3 0 0 0 3-3V9" stroke="#8b949e" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round" transform="translate(786,308) scale(0.5000)" />
     <animate attributeName="opacity" from="0" to="1" dur="0.45s" begin="0.46s" fill="freeze" />
   </g>
-  <text x="802" y="320" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#8b949e" opacity="0">2
+  <text x="802" y="320" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#8b949e" opacity="0">1
     <animate attributeName="opacity" from="0" to="1" dur="0.45s" begin="0.46s" fill="freeze" />
   </text>
 </svg>

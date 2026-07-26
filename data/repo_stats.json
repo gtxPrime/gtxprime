@@ -3,7 +3,7 @@
     "name": "Mind-Mint",
     "description": "\ud83e\udde0 An Android productivity app that helps you break free from doomscrolling. Features immersive focus sessions with gamified crystal rewards, intelligent app blocking, habit heatmaps, deep usage analytics, and an integrated task manager. Built with MVVM, Room, Jetpack Compose & Firebase.",
     "stars": 64,
-    "forks": 10,
+    "forks": 9,
     "language": "Java",
     "html_url": "https://github.com/gtxPrime/Mind-Mint",
     "updated_at": "2026-07-19T10:35:35Z"
@@ -12,7 +12,7 @@
     "name": "screen-x",
     "description": "Just an open source screen recorder",
     "stars": 39,
-    "forks": 3,
+    "forks": 2,
     "language": "Kotlin",
     "html_url": "https://github.com/gtxPrime/screen-x",
     "updated_at": "2026-07-22T14:51:52Z"
@@ -30,7 +30,7 @@
     "name": "whats-wrap",
     "description": "A simple tool to check your WhatsApp Wrap with your loved ones",
     "stars": 17,
-    "forks": 2,
+    "forks": 1,
     "language": "JavaScript",
     "html_url": "https://github.com/gtxPrime/whats-wrap",
     "updated_at": "2026-06-24T21:25:45Z"
@@ -39,7 +39,7 @@
     "name": "vtroid",
     "description": "",
     "stars": 3,
-    "forks": 3,
+    "forks": 2,
     "language": "Java",
     "html_url": "https://github.com/gtxPrime/vtroid",
     "updated_at": "2026-05-23T19:43:47Z"
@@ -99,13 +99,13 @@
     "updated_at": "2025-08-20T15:47:07Z"
   },
   {
-    "name": "gtxprime",
+    "name": "Scryb",
     "description": "",
     "stars": 0,
     "forks": 0,
-    "language": "Python",
-    "html_url": "https://github.com/gtxPrime/gtxprime",
-    "updated_at": "2026-07-24T17:10:33Z"
+    "language": "Kotlin",
+    "html_url": "https://github.com/gtxPrime/Scryb",
+    "updated_at": "2026-07-26T08:39:06Z"
   },
   {
     "name": "tds-june-2026",
@@ -114,7 +114,16 @@
     "forks": 0,
     "language": "Python",
     "html_url": "https://github.com/gtxPrime/tds-june-2026",
-    "updated_at": "2026-07-24T13:12:19Z"
+    "updated_at": "2026-07-25T12:52:26Z"
+  },
+  {
+    "name": "gtxprime",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "html_url": "https://github.com/gtxPrime/gtxprime",
+    "updated_at": "2026-07-25T08:24:32Z"
   },
   {
     "name": "ace-unlocker",
