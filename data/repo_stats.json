@@ -20,11 +20,11 @@
   {
     "name": "arrow-escape",
     "description": "Just a flutter game of making arrows out of the grid (viral game)",
-    "stars": 35,
-    "forks": 2,
+    "stars": 36,
+    "forks": 3,
     "language": "Dart",
     "html_url": "https://github.com/gtxPrime/arrow-escape",
-    "updated_at": "2026-07-31T18:55:24Z"
+    "updated_at": "2026-08-03T03:41:38Z"
   },
   {
     "name": "whats-wrap",
@@ -34,6 +34,15 @@
     "language": "JavaScript",
     "html_url": "https://github.com/gtxPrime/whats-wrap",
     "updated_at": "2026-06-24T21:25:45Z"
+  },
+  {
+    "name": "tds-roe",
+    "description": "",
+    "stars": 3,
+    "forks": 0,
+    "language": "Python",
+    "html_url": "https://github.com/gtxPrime/tds-roe",
+    "updated_at": "2026-08-02T10:08:36Z"
   },
   {
     "name": "vtroid",
@@ -114,7 +123,7 @@
     "forks": 0,
     "language": "Python",
     "html_url": "https://github.com/gtxPrime/tds-june-2026",
-    "updated_at": "2026-07-31T13:25:54Z"
+    "updated_at": "2026-08-02T12:47:33Z"
   },
   {
     "name": "gtxprime",
@@ -123,7 +132,7 @@
     "forks": 0,
     "language": "Python",
     "html_url": "https://github.com/gtxPrime/gtxprime",
-    "updated_at": "2026-07-31T09:17:50Z"
+    "updated_at": "2026-08-01T08:34:39Z"
   },
   {
     "name": "tds-bot",
