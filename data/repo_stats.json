@@ -75,7 +75,7 @@
     "name": "girlfriend-day",
     "description": "",
     "stars": 1,
-    "forks": 1,
+    "forks": 2,
     "language": "HTML",
     "html_url": "https://github.com/gtxPrime/girlfriend-day",
     "updated_at": "2026-08-01T07:02:01Z"
@@ -117,13 +117,22 @@
     "updated_at": "2025-08-20T15:47:07Z"
   },
   {
+    "name": "Aethra",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "language": "Kotlin",
+    "html_url": "https://github.com/gtxPrime/Aethra",
+    "updated_at": "2026-08-04T17:12:06Z"
+  },
+  {
     "name": "tds-june-2026",
     "description": "",
     "stars": 0,
     "forks": 0,
     "language": "Python",
     "html_url": "https://github.com/gtxPrime/tds-june-2026",
-    "updated_at": "2026-08-03T14:11:47Z"
+    "updated_at": "2026-08-04T13:31:15Z"
   },
   {
     "name": "gtxprime",
@@ -132,7 +141,7 @@
     "forks": 0,
     "language": "Python",
     "html_url": "https://github.com/gtxPrime/gtxprime",
-    "updated_at": "2026-08-03T10:08:34Z"
+    "updated_at": "2026-08-04T09:09:43Z"
   },
   {
     "name": "tds-bot",
@@ -178,15 +187,6 @@
     "language": "Python",
     "html_url": "https://github.com/gtxPrime/tds-ga2",
     "updated_at": "2026-06-29T16:17:30Z"
-  },
-  {
-    "name": "Aethra",
-    "description": "",
-    "stars": 0,
-    "forks": 0,
-    "language": "Kotlin",
-    "html_url": "https://github.com/gtxPrime/Aethra",
-    "updated_at": "2026-06-13T09:51:58Z"
   },
   {
     "name": "event-arranger",
