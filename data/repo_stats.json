@@ -123,7 +123,16 @@
     "forks": 0,
     "language": "Python",
     "html_url": "https://github.com/gtxPrime/tds-june-2026",
-    "updated_at": "2026-08-08T12:18:36Z"
+    "updated_at": "2026-08-09T12:20:36Z"
+  },
+  {
+    "name": "gtxprime",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "html_url": "https://github.com/gtxPrime/gtxprime",
+    "updated_at": "2026-08-09T07:16:55Z"
   },
   {
     "name": "Lore",
@@ -133,15 +142,6 @@
     "language": "Kotlin",
     "html_url": "https://github.com/gtxPrime/Lore",
     "updated_at": "2026-08-08T07:32:21Z"
-  },
-  {
-    "name": "gtxprime",
-    "description": "",
-    "stars": 0,
-    "forks": 0,
-    "language": "Python",
-    "html_url": "https://github.com/gtxPrime/gtxprime",
-    "updated_at": "2026-08-08T07:15:55Z"
   },
   {
     "name": "tds-bot",
