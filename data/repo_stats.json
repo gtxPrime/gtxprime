@@ -20,11 +20,11 @@
   {
     "name": "arrow-escape",
     "description": "Just a flutter game of making arrows out of the grid (viral game)",
-    "stars": 37,
-    "forks": 4,
+    "stars": 38,
+    "forks": 5,
     "language": "Dart",
     "html_url": "https://github.com/gtxPrime/arrow-escape",
-    "updated_at": "2026-08-08T06:49:55Z"
+    "updated_at": "2026-08-12T14:38:59Z"
   },
   {
     "name": "whats-wrap",
@@ -123,7 +123,7 @@
     "forks": 0,
     "language": "Python",
     "html_url": "https://github.com/gtxPrime/tds-june-2026",
-    "updated_at": "2026-08-11T12:33:49Z"
+    "updated_at": "2026-08-12T12:36:17Z"
   },
   {
     "name": "gtxprime",
@@ -132,7 +132,7 @@
     "forks": 0,
     "language": "Python",
     "html_url": "https://github.com/gtxPrime/gtxprime",
-    "updated_at": "2026-08-11T07:38:03Z"
+    "updated_at": "2026-08-12T07:53:20Z"
   },
   {
     "name": "Lore",
