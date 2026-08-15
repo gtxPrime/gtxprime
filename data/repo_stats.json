@@ -2,11 +2,11 @@
   {
     "name": "Mind-Mint",
     "description": "\ud83e\udde0 An Android productivity app that helps you break free from doomscrolling. Features immersive focus sessions with gamified crystal rewards, intelligent app blocking, habit heatmaps, deep usage analytics, and an integrated task manager. Built with MVVM, Room, Jetpack Compose & Firebase.",
-    "stars": 66,
+    "stars": 67,
     "forks": 10,
     "language": "Java",
     "html_url": "https://github.com/gtxPrime/Mind-Mint",
-    "updated_at": "2026-07-30T15:08:29Z"
+    "updated_at": "2026-08-14T22:42:42Z"
   },
   {
     "name": "screen-x",
@@ -20,11 +20,11 @@
   {
     "name": "arrow-escape",
     "description": "Just a flutter game of making arrows out of the grid (viral game)",
-    "stars": 38,
+    "stars": 39,
     "forks": 5,
     "language": "Dart",
     "html_url": "https://github.com/gtxPrime/arrow-escape",
-    "updated_at": "2026-08-12T14:38:59Z"
+    "updated_at": "2026-08-15T01:43:07Z"
   },
   {
     "name": "whats-wrap",
@@ -123,7 +123,7 @@
     "forks": 0,
     "language": "Python",
     "html_url": "https://github.com/gtxPrime/tds-june-2026",
-    "updated_at": "2026-08-13T12:38:11Z"
+    "updated_at": "2026-08-14T12:33:40Z"
   },
   {
     "name": "gtxprime",
@@ -132,7 +132,7 @@
     "forks": 0,
     "language": "Python",
     "html_url": "https://github.com/gtxPrime/gtxprime",
-    "updated_at": "2026-08-13T07:54:21Z"
+    "updated_at": "2026-08-14T07:51:15Z"
   },
   {
     "name": "Lore",
