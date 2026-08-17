@@ -11,11 +11,11 @@
   {
     "name": "screen-x",
     "description": "Just an open source screen recorder",
-    "stars": 40,
+    "stars": 41,
     "forks": 3,
     "language": "Kotlin",
     "html_url": "https://github.com/gtxPrime/screen-x",
-    "updated_at": "2026-07-31T09:43:11Z"
+    "updated_at": "2026-08-16T14:03:29Z"
   },
   {
     "name": "arrow-escape",
@@ -132,7 +132,7 @@
     "forks": 0,
     "language": "Python",
     "html_url": "https://github.com/gtxPrime/tds-june-2026",
-    "updated_at": "2026-08-15T12:10:44Z"
+    "updated_at": "2026-08-16T12:11:33Z"
   },
   {
     "name": "gtxprime",
@@ -141,7 +141,7 @@
     "forks": 0,
     "language": "Python",
     "html_url": "https://github.com/gtxPrime/gtxprime",
-    "updated_at": "2026-08-15T06:58:40Z"
+    "updated_at": "2026-08-16T06:59:34Z"
   },
   {
     "name": "Lore",
