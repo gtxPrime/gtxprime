@@ -2,29 +2,29 @@
   {
     "name": "Mind-Mint",
     "description": "\ud83e\udde0 An Android productivity app that helps you break free from doomscrolling. Features immersive focus sessions with gamified crystal rewards, intelligent app blocking, habit heatmaps, deep usage analytics, and an integrated task manager. Built with MVVM, Room, Jetpack Compose & Firebase.",
-    "stars": 67,
+    "stars": 68,
     "forks": 10,
     "language": "Java",
     "html_url": "https://github.com/gtxPrime/Mind-Mint",
-    "updated_at": "2026-08-14T22:42:42Z"
+    "updated_at": "2026-08-23T22:59:49Z"
   },
   {
     "name": "screen-x",
     "description": "Just an open source screen recorder",
-    "stars": 41,
+    "stars": 42,
     "forks": 3,
     "language": "Kotlin",
     "html_url": "https://github.com/gtxPrime/screen-x",
-    "updated_at": "2026-08-16T14:03:29Z"
+    "updated_at": "2026-08-23T22:59:52Z"
   },
   {
     "name": "arrow-escape",
     "description": "Just a flutter game of making arrows out of the grid (viral game)",
-    "stars": 38,
-    "forks": 6,
+    "stars": 40,
+    "forks": 7,
     "language": "Dart",
     "html_url": "https://github.com/gtxPrime/arrow-escape",
-    "updated_at": "2026-08-15T19:01:43Z"
+    "updated_at": "2026-08-23T22:59:55Z"
   },
   {
     "name": "whats-wrap",
@@ -36,6 +36,24 @@
     "updated_at": "2026-06-24T21:25:45Z"
   },
   {
+    "name": "gradify-web",
+    "description": "",
+    "stars": 4,
+    "forks": 0,
+    "language": "JavaScript",
+    "html_url": "https://github.com/gtxPrime/gradify-web",
+    "updated_at": "2026-08-23T23:03:28Z"
+  },
+  {
+    "name": "vtroid",
+    "description": "",
+    "stars": 4,
+    "forks": 2,
+    "language": "Java",
+    "html_url": "https://github.com/gtxPrime/vtroid",
+    "updated_at": "2026-08-23T23:00:00Z"
+  },
+  {
     "name": "tds-roe",
     "description": "",
     "stars": 3,
@@ -43,24 +61,6 @@
     "language": "Python",
     "html_url": "https://github.com/gtxPrime/tds-roe",
     "updated_at": "2026-08-02T10:08:36Z"
-  },
-  {
-    "name": "vtroid",
-    "description": "",
-    "stars": 3,
-    "forks": 2,
-    "language": "Java",
-    "html_url": "https://github.com/gtxPrime/vtroid",
-    "updated_at": "2026-05-23T19:43:47Z"
-  },
-  {
-    "name": "gradify-web",
-    "description": "",
-    "stars": 3,
-    "forks": 0,
-    "language": "JavaScript",
-    "html_url": "https://github.com/gtxPrime/gradify-web",
-    "updated_at": "2026-04-07T11:49:16Z"
   },
   {
     "name": "gradify",
@@ -132,7 +132,7 @@
     "forks": 0,
     "language": "Python",
     "html_url": "https://github.com/gtxPrime/tds-june-2026",
-    "updated_at": "2026-08-22T12:12:27Z"
+    "updated_at": "2026-08-23T12:12:00Z"
   },
   {
     "name": "gtxprime",
@@ -141,7 +141,7 @@
     "forks": 0,
     "language": "Python",
     "html_url": "https://github.com/gtxPrime/gtxprime",
-    "updated_at": "2026-08-22T07:00:07Z"
+    "updated_at": "2026-08-23T07:01:35Z"
   },
   {
     "name": "Lore",

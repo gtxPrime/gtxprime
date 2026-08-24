@@ -1047,13 +1047,16 @@
   <text x="301" y="0" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" fill="#a8d8ff" font-weight="bold" dominant-baseline="hanging">c
     <animate attributeName="y" from="-14" to="254" dur="4.31s" begin="0.45s" repeatCount="indefinite" />
   </text>
-  <text x="301" y="71" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" fill="#58a6ff" font-weight="bold" xml:space="preserve">
-    <tspan x="301" dy="14">T</tspan>
-    <tspan x="301" dy="14">D</tspan>
-    <tspan x="301" dy="14">S</tspan>
-    <tspan x="301" dy="14">-</tspan>
+  <text x="301" y="50" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" fill="#58a6ff" font-weight="bold" xml:space="preserve">
+    <tspan x="301" dy="14">G</tspan>
     <tspan x="301" dy="14">R</tspan>
-    <tspan x="301" dy="14">O</tspan>
+    <tspan x="301" dy="14">A</tspan>
+    <tspan x="301" dy="14">D</tspan>
+    <tspan x="301" dy="14">I</tspan>
+    <tspan x="301" dy="14">F</tspan>
+    <tspan x="301" dy="14">Y</tspan>
+    <tspan x="301" dy="14">-</tspan>
+    <tspan x="301" dy="14">W</tspan>
     <tspan x="301" dy="14">E</tspan>
   </text>
   <text x="311" y="0" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" fill="#0e4429" dominant-baseline="hanging" xml:space="preserve">
@@ -1448,16 +1451,13 @@
   <text x="421" y="0" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" fill="#a8d8ff" font-weight="bold" dominant-baseline="hanging">D
     <animate attributeName="y" from="-14" to="254" dur="5.27s" begin="1.69s" repeatCount="indefinite" />
   </text>
-  <text x="421" y="50" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" fill="#58a6ff" font-weight="bold" xml:space="preserve">
-    <tspan x="421" dy="14">G</tspan>
-    <tspan x="421" dy="14">R</tspan>
-    <tspan x="421" dy="14">A</tspan>
+  <text x="421" y="71" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" fill="#58a6ff" font-weight="bold" xml:space="preserve">
+    <tspan x="421" dy="14">T</tspan>
     <tspan x="421" dy="14">D</tspan>
-    <tspan x="421" dy="14">I</tspan>
-    <tspan x="421" dy="14">F</tspan>
-    <tspan x="421" dy="14">Y</tspan>
+    <tspan x="421" dy="14">S</tspan>
     <tspan x="421" dy="14">-</tspan>
-    <tspan x="421" dy="14">W</tspan>
+    <tspan x="421" dy="14">R</tspan>
+    <tspan x="421" dy="14">O</tspan>
     <tspan x="421" dy="14">E</tspan>
   </text>
   <text x="431" y="0" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" fill="#0e4429" dominant-baseline="hanging" xml:space="preserve">
