@@ -29,11 +29,11 @@
   {
     "name": "whats-wrap",
     "description": "A simple tool to check your WhatsApp Wrap with your loved ones",
-    "stars": 17,
+    "stars": 18,
     "forks": 1,
     "language": "JavaScript",
     "html_url": "https://github.com/gtxPrime/whats-wrap",
-    "updated_at": "2026-06-24T21:25:45Z"
+    "updated_at": "2026-08-27T14:59:57Z"
   },
   {
     "name": "vtroid",
@@ -70,6 +70,15 @@
     "language": "Java",
     "html_url": "https://github.com/gtxPrime/gradify",
     "updated_at": "2026-02-24T18:09:51Z"
+  },
+  {
+    "name": "dhaaga",
+    "description": "",
+    "stars": 1,
+    "forks": 1,
+    "language": "Kotlin",
+    "html_url": "https://github.com/gtxPrime/dhaaga",
+    "updated_at": "2026-08-27T14:48:46Z"
   },
   {
     "name": "Photon",
@@ -126,13 +135,22 @@
     "updated_at": "2025-08-20T15:47:07Z"
   },
   {
+    "name": "edge-deck",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "language": "Kotlin",
+    "html_url": "https://github.com/gtxPrime/edge-deck",
+    "updated_at": "2026-08-27T08:16:12Z"
+  },
+  {
     "name": "tds-june-2026",
     "description": "",
     "stars": 0,
     "forks": 0,
     "language": "Python",
     "html_url": "https://github.com/gtxPrime/tds-june-2026",
-    "updated_at": "2026-08-25T12:23:28Z"
+    "updated_at": "2026-08-26T12:23:28Z"
   },
   {
     "name": "gtxprime",
@@ -141,7 +159,7 @@
     "forks": 0,
     "language": "Python",
     "html_url": "https://github.com/gtxPrime/gtxprime",
-    "updated_at": "2026-08-25T07:10:04Z"
+    "updated_at": "2026-08-26T07:11:32Z"
   },
   {
     "name": "Lore",
