@@ -75,7 +75,7 @@
     "name": "dhaaga",
     "description": "",
     "stars": 1,
-    "forks": 1,
+    "forks": 2,
     "language": "Kotlin",
     "html_url": "https://github.com/gtxPrime/dhaaga",
     "updated_at": "2026-08-27T14:48:46Z"
@@ -135,22 +135,13 @@
     "updated_at": "2025-08-20T15:47:07Z"
   },
   {
-    "name": "edge-deck",
-    "description": "",
-    "stars": 0,
-    "forks": 0,
-    "language": "Kotlin",
-    "html_url": "https://github.com/gtxPrime/edge-deck",
-    "updated_at": "2026-08-27T08:16:12Z"
-  },
-  {
     "name": "tds-june-2026",
     "description": "",
     "stars": 0,
     "forks": 0,
     "language": "Python",
     "html_url": "https://github.com/gtxPrime/tds-june-2026",
-    "updated_at": "2026-08-26T12:23:28Z"
+    "updated_at": "2026-08-28T21:33:18Z"
   },
   {
     "name": "gtxprime",
@@ -159,7 +150,16 @@
     "forks": 0,
     "language": "Python",
     "html_url": "https://github.com/gtxPrime/gtxprime",
-    "updated_at": "2026-08-26T07:11:32Z"
+    "updated_at": "2026-08-27T17:42:23Z"
+  },
+  {
+    "name": "edge-deck",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "language": "Kotlin",
+    "html_url": "https://github.com/gtxPrime/edge-deck",
+    "updated_at": "2026-08-27T08:16:12Z"
   },
   {
     "name": "Lore",
