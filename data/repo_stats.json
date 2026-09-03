@@ -11,11 +11,11 @@
   {
     "name": "arrow-escape",
     "description": "Just a flutter game of making arrows out of the grid (viral game)",
-    "stars": 44,
+    "stars": 45,
     "forks": 7,
     "language": "Dart",
     "html_url": "https://github.com/gtxPrime/arrow-escape",
-    "updated_at": "2026-09-02T08:29:36Z"
+    "updated_at": "2026-09-02T12:20:38Z"
   },
   {
     "name": "screen-x",
@@ -72,15 +72,6 @@
     "updated_at": "2026-02-24T18:09:51Z"
   },
   {
-    "name": "dhaaga",
-    "description": "",
-    "stars": 1,
-    "forks": 2,
-    "language": "Kotlin",
-    "html_url": "https://github.com/gtxPrime/dhaaga",
-    "updated_at": "2026-08-27T14:48:46Z"
-  },
-  {
     "name": "Photon",
     "description": "",
     "stars": 1,
@@ -135,13 +126,22 @@
     "updated_at": "2025-08-20T15:47:07Z"
   },
   {
+    "name": "dhaaga",
+    "description": "",
+    "stars": 0,
+    "forks": 1,
+    "language": "Kotlin",
+    "html_url": "https://github.com/gtxPrime/dhaaga",
+    "updated_at": "2026-09-03T07:28:44Z"
+  },
+  {
     "name": "tds-june-2026",
     "description": "",
     "stars": 0,
     "forks": 0,
     "language": "Python",
     "html_url": "https://github.com/gtxPrime/tds-june-2026",
-    "updated_at": "2026-09-01T16:18:40Z"
+    "updated_at": "2026-09-02T15:27:41Z"
   },
   {
     "name": "gtxprime",
@@ -150,7 +150,7 @@
     "forks": 0,
     "language": "Python",
     "html_url": "https://github.com/gtxPrime/gtxprime",
-    "updated_at": "2026-09-01T11:42:12Z"
+    "updated_at": "2026-09-02T11:21:55Z"
   },
   {
     "name": "edge-deck",
