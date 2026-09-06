@@ -2,11 +2,11 @@
   {
     "name": "Mind-Mint",
     "description": "\ud83e\udde0 An Android productivity app that helps you break free from doomscrolling. Features immersive focus sessions with gamified crystal rewards, intelligent app blocking, habit heatmaps, deep usage analytics, and an integrated task manager. Built with MVVM, Room, Jetpack Compose & Firebase.",
-    "stars": 67,
-    "forks": 10,
+    "stars": 68,
+    "forks": 11,
     "language": "Java",
     "html_url": "https://github.com/gtxPrime/Mind-Mint",
-    "updated_at": "2026-08-25T18:18:22Z"
+    "updated_at": "2026-09-05T19:53:57Z"
   },
   {
     "name": "arrow-escape",
@@ -126,22 +126,13 @@
     "updated_at": "2025-08-20T15:47:07Z"
   },
   {
-    "name": "dhaaga",
-    "description": "",
-    "stars": 0,
-    "forks": 1,
-    "language": "Kotlin",
-    "html_url": "https://github.com/gtxPrime/dhaaga",
-    "updated_at": "2026-09-05T08:16:56Z"
-  },
-  {
     "name": "tds-june-2026",
     "description": "",
     "stars": 0,
     "forks": 0,
     "language": "Python",
     "html_url": "https://github.com/gtxPrime/tds-june-2026",
-    "updated_at": "2026-09-04T15:12:33Z"
+    "updated_at": "2026-09-05T14:02:07Z"
   },
   {
     "name": "gtxprime",
@@ -150,7 +141,16 @@
     "forks": 0,
     "language": "Python",
     "html_url": "https://github.com/gtxPrime/gtxprime",
-    "updated_at": "2026-09-04T11:18:59Z"
+    "updated_at": "2026-09-05T10:36:29Z"
+  },
+  {
+    "name": "dhaaga",
+    "description": "",
+    "stars": 0,
+    "forks": 1,
+    "language": "Kotlin",
+    "html_url": "https://github.com/gtxPrime/dhaaga",
+    "updated_at": "2026-09-05T08:16:56Z"
   },
   {
     "name": "edge-deck",
