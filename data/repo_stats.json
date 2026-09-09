@@ -11,11 +11,11 @@
   {
     "name": "arrow-escape",
     "description": "Just a flutter game of making arrows out of the grid (viral game)",
-    "stars": 50,
-    "forks": 7,
+    "stars": 52,
+    "forks": 8,
     "language": "Dart",
     "html_url": "https://github.com/gtxPrime/arrow-escape",
-    "updated_at": "2026-09-07T12:42:52Z"
+    "updated_at": "2026-09-08T15:51:38Z"
   },
   {
     "name": "screen-x",
@@ -126,6 +126,15 @@
     "updated_at": "2025-08-20T15:47:07Z"
   },
   {
+    "name": "gtxprime",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "html_url": "https://github.com/gtxPrime/gtxprime",
+    "updated_at": "2026-09-08T11:20:38Z"
+  },
+  {
     "name": "tds-june-2026",
     "description": "",
     "stars": 0,
@@ -133,15 +142,6 @@
     "language": "Python",
     "html_url": "https://github.com/gtxPrime/tds-june-2026",
     "updated_at": "2026-09-07T16:41:31Z"
-  },
-  {
-    "name": "gtxprime",
-    "description": "",
-    "stars": 0,
-    "forks": 0,
-    "language": "Python",
-    "html_url": "https://github.com/gtxPrime/gtxprime",
-    "updated_at": "2026-09-07T12:34:33Z"
   },
   {
     "name": "dhaaga",
