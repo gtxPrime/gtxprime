@@ -126,22 +126,13 @@
     "updated_at": "2025-08-20T15:47:07Z"
   },
   {
-    "name": "STeP",
-    "description": "",
-    "stars": 0,
-    "forks": 0,
-    "language": "Kotlin",
-    "html_url": "https://github.com/gtxPrime/STeP",
-    "updated_at": "2026-10-01T11:50:14Z"
-  },
-  {
     "name": "tds-june-2026",
     "description": "",
     "stars": 0,
     "forks": 0,
     "language": "Python",
     "html_url": "https://github.com/gtxPrime/tds-june-2026",
-    "updated_at": "2026-09-30T17:02:03Z"
+    "updated_at": "2026-10-01T17:32:22Z"
   },
   {
     "name": "gtxprime",
@@ -150,7 +141,16 @@
     "forks": 0,
     "language": "Python",
     "html_url": "https://github.com/gtxPrime/gtxprime",
-    "updated_at": "2026-09-30T12:36:03Z"
+    "updated_at": "2026-10-01T13:16:39Z"
+  },
+  {
+    "name": "STeP",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "language": "Kotlin",
+    "html_url": "https://github.com/gtxPrime/STeP",
+    "updated_at": "2026-10-01T11:50:14Z"
   },
   {
     "name": "dhaaga",
