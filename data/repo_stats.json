@@ -12,7 +12,7 @@
     "name": "arrow-escape",
     "description": "Just a flutter game of making arrows out of the grid (viral game)",
     "stars": 60,
-    "forks": 9,
+    "forks": 10,
     "language": "Dart",
     "html_url": "https://github.com/gtxPrime/arrow-escape",
     "updated_at": "2026-10-02T19:44:37Z"
@@ -20,11 +20,11 @@
   {
     "name": "screen-x",
     "description": "Just an open source screen recorder",
-    "stars": 50,
+    "stars": 52,
     "forks": 3,
     "language": "Kotlin",
     "html_url": "https://github.com/gtxPrime/screen-x",
-    "updated_at": "2026-09-29T12:03:51Z"
+    "updated_at": "2026-10-04T00:34:58Z"
   },
   {
     "name": "whats-wrap",
@@ -132,7 +132,7 @@
     "forks": 0,
     "language": "Python",
     "html_url": "https://github.com/gtxPrime/tds-june-2026",
-    "updated_at": "2026-10-02T16:51:43Z"
+    "updated_at": "2026-10-03T15:16:09Z"
   },
   {
     "name": "gtxprime",
@@ -141,7 +141,7 @@
     "forks": 0,
     "language": "Python",
     "html_url": "https://github.com/gtxPrime/gtxprime",
-    "updated_at": "2026-10-02T12:36:12Z"
+    "updated_at": "2026-10-03T11:40:41Z"
   },
   {
     "name": "STeP",
