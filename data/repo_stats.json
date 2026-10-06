@@ -20,11 +20,11 @@
   {
     "name": "screen-x",
     "description": "Just an open source screen recorder",
-    "stars": 53,
+    "stars": 54,
     "forks": 3,
     "language": "Kotlin",
     "html_url": "https://github.com/gtxPrime/screen-x",
-    "updated_at": "2026-10-05T07:15:49Z"
+    "updated_at": "2026-10-06T05:02:40Z"
   },
   {
     "name": "whats-wrap",
@@ -126,22 +126,13 @@
     "updated_at": "2025-08-20T15:47:07Z"
   },
   {
-    "name": "huddle-up",
-    "description": "",
-    "stars": 0,
-    "forks": 0,
-    "language": "Dart",
-    "html_url": "https://github.com/gtxPrime/huddle-up",
-    "updated_at": "2026-10-04T19:50:09Z"
-  },
-  {
     "name": "tds-june-2026",
     "description": "",
     "stars": 0,
     "forks": 0,
     "language": "Python",
     "html_url": "https://github.com/gtxPrime/tds-june-2026",
-    "updated_at": "2026-10-04T16:01:29Z"
+    "updated_at": "2026-10-05T19:57:20Z"
   },
   {
     "name": "gtxprime",
@@ -150,7 +141,16 @@
     "forks": 0,
     "language": "Python",
     "html_url": "https://github.com/gtxPrime/gtxprime",
-    "updated_at": "2026-10-04T12:22:47Z"
+    "updated_at": "2026-10-05T14:41:13Z"
+  },
+  {
+    "name": "huddle-up",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "language": "Dart",
+    "html_url": "https://github.com/gtxPrime/huddle-up",
+    "updated_at": "2026-10-04T19:50:09Z"
   },
   {
     "name": "STeP",
