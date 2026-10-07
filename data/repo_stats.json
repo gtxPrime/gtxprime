@@ -20,11 +20,11 @@
   {
     "name": "screen-x",
     "description": "Just an open source screen recorder",
-    "stars": 54,
+    "stars": 55,
     "forks": 3,
     "language": "Kotlin",
     "html_url": "https://github.com/gtxPrime/screen-x",
-    "updated_at": "2026-10-06T05:02:40Z"
+    "updated_at": "2026-10-07T05:45:11Z"
   },
   {
     "name": "whats-wrap",
@@ -126,13 +126,22 @@
     "updated_at": "2025-08-20T15:47:07Z"
   },
   {
+    "name": "edge-deck",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "language": "Kotlin",
+    "html_url": "https://github.com/gtxPrime/edge-deck",
+    "updated_at": "2026-10-06T21:52:22Z"
+  },
+  {
     "name": "tds-june-2026",
     "description": "",
     "stars": 0,
     "forks": 0,
     "language": "Python",
     "html_url": "https://github.com/gtxPrime/tds-june-2026",
-    "updated_at": "2026-10-05T19:57:20Z"
+    "updated_at": "2026-10-06T17:26:57Z"
   },
   {
     "name": "gtxprime",
@@ -141,7 +150,7 @@
     "forks": 0,
     "language": "Python",
     "html_url": "https://github.com/gtxPrime/gtxprime",
-    "updated_at": "2026-10-05T14:41:13Z"
+    "updated_at": "2026-10-06T13:19:15Z"
   },
   {
     "name": "huddle-up",
@@ -187,15 +196,6 @@
     "language": "Kotlin",
     "html_url": "https://github.com/gtxPrime/Lore",
     "updated_at": "2026-09-16T11:25:33Z"
-  },
-  {
-    "name": "edge-deck",
-    "description": "",
-    "stars": 0,
-    "forks": 0,
-    "language": "Kotlin",
-    "html_url": "https://github.com/gtxPrime/edge-deck",
-    "updated_at": "2026-08-27T08:16:12Z"
   },
   {
     "name": "tds-bot",
