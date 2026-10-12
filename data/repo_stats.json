@@ -11,20 +11,20 @@
   {
     "name": "arrow-escape",
     "description": "Just a flutter game of making arrows out of the grid (viral game)",
-    "stars": 61,
+    "stars": 62,
     "forks": 11,
     "language": "Dart",
     "html_url": "https://github.com/gtxPrime/arrow-escape",
-    "updated_at": "2026-10-08T00:50:26Z"
+    "updated_at": "2026-10-12T13:34:24Z"
   },
   {
     "name": "screen-x",
     "description": "Just an open source screen recorder",
-    "stars": 55,
+    "stars": 57,
     "forks": 3,
     "language": "Kotlin",
     "html_url": "https://github.com/gtxPrime/screen-x",
-    "updated_at": "2026-10-11T11:00:18Z"
+    "updated_at": "2026-10-12T07:34:59Z"
   },
   {
     "name": "whats-wrap",
@@ -132,7 +132,7 @@
     "forks": 0,
     "language": "Python",
     "html_url": "https://github.com/gtxPrime/tds-june-2026",
-    "updated_at": "2026-10-10T16:24:40Z"
+    "updated_at": "2026-10-11T16:49:24Z"
   },
   {
     "name": "gtxprime",
@@ -141,7 +141,7 @@
     "forks": 0,
     "language": "Python",
     "html_url": "https://github.com/gtxPrime/gtxprime",
-    "updated_at": "2026-10-10T12:33:16Z"
+    "updated_at": "2026-10-11T12:51:32Z"
   },
   {
     "name": "edge-deck",
@@ -174,7 +174,7 @@
     "name": "dhaaga",
     "description": "",
     "stars": 0,
-    "forks": 2,
+    "forks": 1,
     "language": "Kotlin",
     "html_url": "https://github.com/gtxPrime/dhaaga",
     "updated_at": "2026-09-28T07:01:10Z"
