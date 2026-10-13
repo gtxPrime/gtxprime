@@ -20,11 +20,11 @@
   {
     "name": "screen-x",
     "description": "Just an open source screen recorder",
-    "stars": 57,
+    "stars": 58,
     "forks": 3,
     "language": "Kotlin",
     "html_url": "https://github.com/gtxPrime/screen-x",
-    "updated_at": "2026-10-12T07:34:59Z"
+    "updated_at": "2026-10-13T04:34:35Z"
   },
   {
     "name": "whats-wrap",
@@ -126,13 +126,22 @@
     "updated_at": "2025-08-20T15:47:07Z"
   },
   {
+    "name": "latent-showreel",
+    "description": "Latent space - AI filmmaker showreel site",
+    "stars": 0,
+    "forks": 0,
+    "language": "JavaScript",
+    "html_url": "https://github.com/gtxPrime/latent-showreel",
+    "updated_at": "2026-10-13T12:00:28Z"
+  },
+  {
     "name": "tds-june-2026",
     "description": "",
     "stars": 0,
     "forks": 0,
     "language": "Python",
     "html_url": "https://github.com/gtxPrime/tds-june-2026",
-    "updated_at": "2026-10-11T16:49:24Z"
+    "updated_at": "2026-10-12T20:27:18Z"
   },
   {
     "name": "gtxprime",
@@ -141,7 +150,7 @@
     "forks": 0,
     "language": "Python",
     "html_url": "https://github.com/gtxPrime/gtxprime",
-    "updated_at": "2026-10-11T12:51:32Z"
+    "updated_at": "2026-10-12T15:27:06Z"
   },
   {
     "name": "edge-deck",
