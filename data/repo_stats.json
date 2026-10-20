@@ -9,22 +9,22 @@
     "updated_at": "2026-10-18T09:12:02Z"
   },
   {
-    "name": "arrow-escape",
-    "description": "Just a flutter game of making arrows out of the grid (viral game)",
-    "stars": 64,
-    "forks": 11,
-    "language": "Dart",
-    "html_url": "https://github.com/gtxPrime/arrow-escape",
-    "updated_at": "2026-10-18T09:12:25Z"
-  },
-  {
     "name": "screen-x",
     "description": "Just an open source screen recorder",
-    "stars": 64,
+    "stars": 65,
     "forks": 4,
     "language": "Kotlin",
     "html_url": "https://github.com/gtxPrime/screen-x",
-    "updated_at": "2026-10-18T09:12:15Z"
+    "updated_at": "2026-10-18T21:22:42Z"
+  },
+  {
+    "name": "arrow-escape",
+    "description": "Just a flutter game of making arrows out of the grid (viral game)",
+    "stars": 64,
+    "forks": 12,
+    "language": "Dart",
+    "html_url": "https://github.com/gtxPrime/arrow-escape",
+    "updated_at": "2026-10-18T09:12:25Z"
   },
   {
     "name": "whats-wrap",
@@ -141,7 +141,34 @@
     "forks": 0,
     "language": "Python",
     "html_url": "https://github.com/gtxPrime/tds-june-2026",
-    "updated_at": "2026-10-17T14:28:59Z"
+    "updated_at": "2026-10-19T17:48:24Z"
+  },
+  {
+    "name": "edgedeck",
+    "description": "Edge Deck - edge panel and notch sidebar for any Android. Website.",
+    "stars": 0,
+    "forks": 0,
+    "language": "HTML",
+    "html_url": "https://github.com/gtxPrime/edgedeck",
+    "updated_at": "2026-10-19T07:16:26Z"
+  },
+  {
+    "name": "nine-kilometres",
+    "description": "a small goodbye, in a long scroll",
+    "stars": 0,
+    "forks": 0,
+    "language": "HTML",
+    "html_url": "https://github.com/gtxPrime/nine-kilometres",
+    "updated_at": "2026-10-18T19:46:41Z"
+  },
+  {
+    "name": "tds-ga1-portfolio",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "language": "HTML",
+    "html_url": "https://github.com/gtxPrime/tds-ga1-portfolio",
+    "updated_at": "2026-10-18T14:52:35Z"
   },
   {
     "name": "gtxprime",
@@ -150,16 +177,7 @@
     "forks": 0,
     "language": "Python",
     "html_url": "https://github.com/gtxPrime/gtxprime",
-    "updated_at": "2026-10-17T10:45:08Z"
-  },
-  {
-    "name": "edge-deck",
-    "description": "",
-    "stars": 0,
-    "forks": 0,
-    "language": "Kotlin",
-    "html_url": "https://github.com/gtxPrime/edge-deck",
-    "updated_at": "2026-10-06T21:52:22Z"
+    "updated_at": "2026-10-18T11:06:37Z"
   },
   {
     "name": "huddle-up",
