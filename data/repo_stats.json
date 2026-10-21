@@ -78,7 +78,7 @@
     "forks": 0,
     "language": "JavaScript",
     "html_url": "https://github.com/gtxPrime/latent-showreel",
-    "updated_at": "2026-10-16T01:43:34Z"
+    "updated_at": "2026-10-21T09:50:13Z"
   },
   {
     "name": "Photon",
@@ -135,13 +135,31 @@
     "updated_at": "2025-08-20T15:47:07Z"
   },
   {
+    "name": "sb-sons-jewellers-demo",
+    "description": "Demo showcase site for SB & Sons Jewellers (Agra). Contains AI-generated demo images.",
+    "stars": 0,
+    "forks": 0,
+    "language": "CSS",
+    "html_url": "https://github.com/gtxPrime/sb-sons-jewellers-demo",
+    "updated_at": "2026-10-21T11:26:40Z"
+  },
+  {
     "name": "tds-june-2026",
     "description": "",
     "stars": 0,
     "forks": 0,
     "language": "Python",
     "html_url": "https://github.com/gtxPrime/tds-june-2026",
-    "updated_at": "2026-10-19T17:48:24Z"
+    "updated_at": "2026-10-20T15:52:25Z"
+  },
+  {
+    "name": "gtxprime",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "html_url": "https://github.com/gtxPrime/gtxprime",
+    "updated_at": "2026-10-20T11:38:04Z"
   },
   {
     "name": "edgedeck",
@@ -169,15 +187,6 @@
     "language": "HTML",
     "html_url": "https://github.com/gtxPrime/tds-ga1-portfolio",
     "updated_at": "2026-10-18T14:52:35Z"
-  },
-  {
-    "name": "gtxprime",
-    "description": "",
-    "stars": 0,
-    "forks": 0,
-    "language": "Python",
-    "html_url": "https://github.com/gtxPrime/gtxprime",
-    "updated_at": "2026-10-18T11:06:37Z"
   },
   {
     "name": "huddle-up",
