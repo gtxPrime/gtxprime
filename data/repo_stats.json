@@ -11,11 +11,11 @@
   {
     "name": "screen-x",
     "description": "Just an open source screen recorder",
-    "stars": 65,
+    "stars": 66,
     "forks": 5,
     "language": "Kotlin",
     "html_url": "https://github.com/gtxPrime/screen-x",
-    "updated_at": "2026-10-22T11:00:14Z"
+    "updated_at": "2026-10-26T16:14:39Z"
   },
   {
     "name": "arrow-escape",
@@ -38,11 +38,11 @@
   {
     "name": "Tits",
     "description": "TITS to help you in hard times",
-    "stars": 6,
-    "forks": 3,
+    "stars": 11,
+    "forks": 5,
     "language": "JavaScript",
     "html_url": "https://github.com/gtxPrime/Tits",
-    "updated_at": "2026-10-26T11:49:16Z"
+    "updated_at": "2026-10-27T06:18:55Z"
   },
   {
     "name": "vtroid",
@@ -87,7 +87,7 @@
     "forks": 0,
     "language": "JavaScript",
     "html_url": "https://github.com/gtxPrime/latent-showreel",
-    "updated_at": "2026-10-21T16:21:23Z"
+    "updated_at": "2026-10-27T07:19:39Z"
   },
   {
     "name": "Photon",
@@ -144,6 +144,24 @@
     "updated_at": "2025-08-20T15:47:07Z"
   },
   {
+    "name": "tds-june-2026",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "html_url": "https://github.com/gtxPrime/tds-june-2026",
+    "updated_at": "2026-10-26T17:42:30Z"
+  },
+  {
+    "name": "gtxprime",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "html_url": "https://github.com/gtxPrime/gtxprime",
+    "updated_at": "2026-10-26T13:04:31Z"
+  },
+  {
     "name": "expense-tracker-android-java",
     "description": "Expense Tracker app (Java, SQLite, Material 3) - InternsElite major project",
     "stars": 0,
@@ -160,24 +178,6 @@
     "language": "Java",
     "html_url": "https://github.com/gtxPrime/calculator-app-android-java",
     "updated_at": "2026-10-26T06:37:18Z"
-  },
-  {
-    "name": "tds-june-2026",
-    "description": "",
-    "stars": 0,
-    "forks": 0,
-    "language": "Python",
-    "html_url": "https://github.com/gtxPrime/tds-june-2026",
-    "updated_at": "2026-10-25T15:05:23Z"
-  },
-  {
-    "name": "gtxprime",
-    "description": "",
-    "stars": 0,
-    "forks": 0,
-    "language": "Python",
-    "html_url": "https://github.com/gtxPrime/gtxprime",
-    "updated_at": "2026-10-25T11:30:54Z"
   },
   {
     "name": "sb-sons-jewellers-demo",
