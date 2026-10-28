@@ -11,11 +11,11 @@
   {
     "name": "screen-x",
     "description": "Just an open source screen recorder",
-    "stars": 66,
+    "stars": 68,
     "forks": 5,
     "language": "Kotlin",
     "html_url": "https://github.com/gtxPrime/screen-x",
-    "updated_at": "2026-10-26T16:14:39Z"
+    "updated_at": "2026-10-28T00:34:58Z"
   },
   {
     "name": "arrow-escape",
@@ -87,7 +87,7 @@
     "forks": 0,
     "language": "JavaScript",
     "html_url": "https://github.com/gtxPrime/latent-showreel",
-    "updated_at": "2026-10-27T07:19:39Z"
+    "updated_at": "2026-10-27T13:42:29Z"
   },
   {
     "name": "Photon",
@@ -120,7 +120,7 @@
     "name": "creative-video-portfolio",
     "description": "A premium, responsive video portfolio template for editors, animators, and creators, featuring GSAP animations, custom cursors, AJAX page loading.",
     "stars": 1,
-    "forks": 0,
+    "forks": 1,
     "language": "HTML",
     "html_url": "https://github.com/gtxPrime/creative-video-portfolio",
     "updated_at": "2026-06-17T05:11:00Z"
@@ -150,7 +150,7 @@
     "forks": 0,
     "language": "Python",
     "html_url": "https://github.com/gtxPrime/tds-june-2026",
-    "updated_at": "2026-10-26T17:42:30Z"
+    "updated_at": "2026-10-27T16:53:47Z"
   },
   {
     "name": "gtxprime",
@@ -159,7 +159,7 @@
     "forks": 0,
     "language": "Python",
     "html_url": "https://github.com/gtxPrime/gtxprime",
-    "updated_at": "2026-10-26T13:04:31Z"
+    "updated_at": "2026-10-27T12:13:07Z"
   },
   {
     "name": "expense-tracker-android-java",
