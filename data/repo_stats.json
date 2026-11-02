@@ -144,13 +144,22 @@
     "updated_at": "2025-08-20T15:47:07Z"
   },
   {
+    "name": "edge-deck",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "language": "Kotlin",
+    "html_url": "https://github.com/gtxPrime/edge-deck",
+    "updated_at": "2026-11-01T20:36:34Z"
+  },
+  {
     "name": "tds-june-2026",
     "description": "",
     "stars": 0,
     "forks": 0,
     "language": "Python",
     "html_url": "https://github.com/gtxPrime/tds-june-2026",
-    "updated_at": "2026-10-31T16:21:30Z"
+    "updated_at": "2026-11-01T17:16:06Z"
   },
   {
     "name": "gtxprime",
@@ -159,7 +168,7 @@
     "forks": 0,
     "language": "Python",
     "html_url": "https://github.com/gtxPrime/gtxprime",
-    "updated_at": "2026-10-31T12:31:40Z"
+    "updated_at": "2026-11-01T13:25:53Z"
   },
   {
     "name": "expense-tracker-android-java",
