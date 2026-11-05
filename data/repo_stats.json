@@ -1,5 +1,14 @@
 [
   {
+    "name": "screen-x",
+    "description": "Just an open source screen recorder",
+    "stars": 71,
+    "forks": 5,
+    "language": "Kotlin",
+    "html_url": "https://github.com/gtxPrime/screen-x",
+    "updated_at": "2026-11-04T18:24:45Z"
+  },
+  {
     "name": "Mind-Mint",
     "description": "\ud83e\udde0 An Android productivity app that helps you break free from doomscrolling. Features immersive focus sessions with gamified crystal rewards, intelligent app blocking, habit heatmaps, deep usage analytics, and an integrated task manager. Built with MVVM, Room, Jetpack Compose & Firebase.",
     "stars": 71,
@@ -7,15 +16,6 @@
     "language": "Java",
     "html_url": "https://github.com/gtxPrime/Mind-Mint",
     "updated_at": "2026-11-02T18:29:48Z"
-  },
-  {
-    "name": "screen-x",
-    "description": "Just an open source screen recorder",
-    "stars": 69,
-    "forks": 5,
-    "language": "Kotlin",
-    "html_url": "https://github.com/gtxPrime/screen-x",
-    "updated_at": "2026-10-29T01:54:41Z"
   },
   {
     "name": "arrow-escape",
@@ -150,7 +150,7 @@
     "forks": 0,
     "language": "Python",
     "html_url": "https://github.com/gtxPrime/tds-june-2026",
-    "updated_at": "2026-11-03T18:42:06Z"
+    "updated_at": "2026-11-04T18:54:26Z"
   },
   {
     "name": "gtxprime",
@@ -159,7 +159,7 @@
     "forks": 0,
     "language": "Python",
     "html_url": "https://github.com/gtxPrime/gtxprime",
-    "updated_at": "2026-11-03T14:15:57Z"
+    "updated_at": "2026-11-04T14:33:27Z"
   },
   {
     "name": "edge-deck",
