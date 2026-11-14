@@ -2,11 +2,11 @@
   {
     "name": "Mind-Mint",
     "description": "\ud83e\udde0 An Android productivity app that helps you break free from doomscrolling. Features immersive focus sessions with gamified crystal rewards, intelligent app blocking, habit heatmaps, deep usage analytics, and an integrated task manager. Built with MVVM, Room, Jetpack Compose & Firebase.",
-    "stars": 72,
+    "stars": 71,
     "forks": 13,
     "language": "Java",
     "html_url": "https://github.com/gtxPrime/Mind-Mint",
-    "updated_at": "2026-11-12T03:08:05Z"
+    "updated_at": "2026-11-13T16:18:54Z"
   },
   {
     "name": "screen-x",
